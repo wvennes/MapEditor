@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{095e11fe-6237-464f-b968-06ca503607be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Core">
+      <UniqueIdentifier>{0c9aeb26-88a0-4d76-b851-04592e1dd57e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widgets">
+      <UniqueIdentifier>{ece4ad62-bfdc-43f9-819b-b45c9d88c62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c9ec2041-1bd0-4d8e-abf6-292b1f2d2650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Fonts">
+      <UniqueIdentifier>{736cea70-ac71-4c40-9da6-129abfd557ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sheets">
+      <UniqueIdentifier>{bbf6f411-27b7-423e-a3d5-d487e9fcac41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\Main_Win32.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\TheApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\TheEditor.cpp">
+      <Filter>Editor\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\TileGridWidget.cpp">
+      <Filter>Editor\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\SpriteSheetDisplay.cpp">
+      <Filter>Editor\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\SpriteSheetButton.cpp">
+      <Filter>Editor\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\SheetLoader.cpp">
+      <Filter>Editor\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\SpriteSheetGridButton.cpp">
+      <Filter>Editor\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\XMLMapHandler.cpp">
+      <Filter>Editor\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\TheApplication.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\TheEditor.hpp">
+      <Filter>Editor\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\TileGridWidget.hpp">
+      <Filter>Editor\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SpriteSheetDisplay.hpp">
+      <Filter>Editor\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SpriteSheetButton.hpp">
+      <Filter>Editor\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SheetLoader.hpp">
+      <Filter>Editor\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SpriteSheetGridButton.hpp">
+      <Filter>Editor\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\XMLMapHandler.hpp">
+      <Filter>Editor\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Data\Fonts\BookAntiqua.fnt">
+      <Filter>Data\Fonts</Filter>
+    </None>
+    <None Include="..\Data\Fonts\MSGothic.fnt">
+      <Filter>Data\Fonts</Filter>
+    </None>
+    <None Include="..\Data\Sheets\SimpleMinerAtlas.sheetmeta.xml">
+      <Filter>Data\Sheets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Data\Fonts\BookAntiqua_0.png">
+      <Filter>Data\Fonts</Filter>
+    </Image>
+    <Image Include="..\Data\Fonts\MSGothic_0.png">
+      <Filter>Data\Fonts</Filter>
+    </Image>
+    <Image Include="..\Data\Sheets\SimpleMinerAtlas.png">
+      <Filter>Data\Sheets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

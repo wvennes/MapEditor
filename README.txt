@@ -1,0 +1,1 @@
+Map files are saved in the root of the "Data" folder with the executable.
